@@ -1,0 +1,30 @@
+{
+  "name": "flow_life",
+  "version": "1.2.0",
+  "description": "Made by serdeza#5388",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "pm2": "./node_modules/.bin/pm2 start index.js",
+    "lint": "eslint *.js **/*.js",
+    "lint:fix": "eslint *.js **/*.js --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "@agc93/privatebin": "^0.0.2",
+    "chalk": "4.1.2",
+    "dayjs": "1.10.7",
+    "discord.js": "13.6.0",
+    "dotenv": "16.0.0",
+    "glob": "7.2.0",
+    "mongoose": "^6.7.2",
+    "ms": "2.1.3",
+    "pm2": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
